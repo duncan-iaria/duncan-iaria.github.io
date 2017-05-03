@@ -33,16 +33,23 @@
 		<div class="container">
 			<main>
 				<section class="content">
-					<h2>About Me</h2>
+					<h2>Contact</h2>
 					
 					<hr/>
-
-					<img src="assets/images/duncan-portrait-sm.jpg" alt="Handsome Picture of Duncan Iaria"/>
-					<p>I like video games, drums, biking, Star Wars, and web development. Isn't that interesting? Not really - but hey I used to be in a rock band. That was pretty fun. Unfortunately, there was no money in it for me, and you kind of need money to survive in a capatalistic society, so I decided to do computer stuff as a job. It's all good though - cuz I love computers too.</p>
 					
-					<br/>
+					<form>
+						<label>Name</label>
+						<input type="text" name="contact-name" placeholder="John Smith">
 
-					<p>I went to school for Animation and Interactive Media, so mostly I've got an art and design background. Currently I make web apps and games (mostly training related). It's a pretty sweet gig, but I'd like to work at a web development company here in Atlanta (I currently work remotely - which is cool, but not ALL the time, as I DO like people occasionally). Anyway, look on my works ye mighty, and despair!</p>
+						<label>Email</label>
+						<input type="email" name="contact-email" placeholder="example@gmail.com">
+
+						<label>Message</label>
+						<textarea id="contact-message-contents" type="text" name="message"></textarea>
+
+						<input type="submit" value="Submit">
+					</form>
+
 				</section>
 			</main>
 
@@ -67,8 +74,6 @@
 				</section>
 			</aside>
 		
-			<div style="clear: both;"></div>
-
 		<!-- CLOSE CONTAINER -->
 		</div>
 
@@ -78,6 +83,5 @@
 				<p class="footer-text"> &copy; Copyright 2017 Duncan Iaria</p>
 			</div>
 		</footer>
-		
 	</body>
 </html>
